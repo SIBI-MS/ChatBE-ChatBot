@@ -1,3 +1,5 @@
 streamlit
 langchain
 python-dotenv
+langchain-groq
+mysql-connector-python
