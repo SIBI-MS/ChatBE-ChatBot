@@ -45,6 +45,17 @@ with st.sidebar:
             )
             st.session_state.db=db
             st.success("Connected to database!")
-        
+
+
+#For showing the chat
+for message in st.session_state.chat_history:
+    if isinstance(message,AIMessage):
+        with st.chat_message("AI"):
+            st.markdown(message.content)
+    elif isinstance(message,HumanMessage):
+        with st.chat_message("Human"):
+            st.markdown(message.content)
+            
+            
 
 st.chat_input("Ask you quaery here...")
