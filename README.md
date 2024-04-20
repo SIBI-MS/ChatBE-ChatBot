@@ -71,4 +71,4 @@ Contributions to ChatBE are welcome! If you'd like to contribute, please follow 
 
 ## Contact
 
-For questions, feedback, or support, please contact [your@email.com](mailto:sibims00@email.com).
+For questions, feedback, or support, please contact [sibims00@email.com](mailto:sibims00@email.com).
