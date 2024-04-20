@@ -23,7 +23,7 @@ To run ChatBE, you'll need the following dependencies installed:
 You can install the required Python packages using pip:
 
 ```
-pip install langchain langsmith streamlit tensorflow mysql-connector-python
+pip install langchain langsmith streamlit mysql-connector-python
 ```
 
 ## Usage
