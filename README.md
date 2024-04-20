@@ -1,5 +1,4 @@
 
-```
 # ChatBE
 
 ChatBE is an open-source chatbot that connects to a MySQL database, allowing users to ask questions based on the database content. It is built using the Langchain framework, Langsmith for monitoring, and the Llama-2-7b-chat-hf model. The user interface is created with Streamlit.
@@ -19,7 +18,6 @@ To run ChatBE, you'll need the following dependencies installed:
 - Langchain
 - Langsmith
 - Streamlit
-- TensorFlow
 - MySQL client library
 
 You can install the required Python packages using pip:
@@ -61,9 +59,6 @@ Contributions to ChatBE are welcome! If you'd like to contribute, please follow 
 2. Make your changes and ensure that the code passes all tests.
 3. Submit a pull request with a clear description of your changes.
 
-## License
-
-ChatBE is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
@@ -74,5 +69,4 @@ ChatBE is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For questions, feedback, or support, please contact [your@email.com](mailto:your@email.com).
-```
+For questions, feedback, or support, please contact [your@email.com](mailto:sibims00@email.com).
