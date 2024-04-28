@@ -5,7 +5,7 @@ ChatBE is an open-source chatbot that connects to a MySQL database, allowing use
 
 ![ChatBE Logo](chatbe.png)
 
-## Features
+## Features 
 
 - Connects to a MySQL database to retrieve and interact with data.
 - Uses the Llama-2-7b-chat-hf model for natural language understanding and generation.
