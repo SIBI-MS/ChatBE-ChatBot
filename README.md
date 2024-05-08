@@ -1,14 +1,14 @@
 
 # ChatBE
 
-ChatBE is an open-source chatbot that connects to a MySQL database, allowing users to ask questions based on the database content. It is built using the Langchain framework, Langsmith for monitoring, and the Llama-2-7b-chat-hf model. The user interface is created with Streamlit. 
+ChatBE is an open-source chatbot that connects to a MySQL database, allowing users to ask questions based on the database content. It is built using the Langchain framework, Langsmith for monitoring, and the phi-3 model. The user interface is created with Streamlit. 
 
 ![ChatBE Logo](chatbe.png)
 
 ## Features 
 
 - Connects to a MySQL database to retrieve and interact with data.
-- Uses the Llama-2-7b-chat-hf model for natural language understanding and generation.
+- Uses the phi-3 model for natural language understanding and generation.
 - Monitored by Langsmith for performance and reliability.
 - Provides a user-friendly interface powered by Streamlit.
 
