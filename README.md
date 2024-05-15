@@ -8,7 +8,7 @@ ChatBE is an open-source chatbot that connects to a MySQL database, allowing use
 ## Features 
 
 - Connects to a MySQL database to retrieve and interact with data.
-- Uses the phi-3 model for natural language understanding and generation.
+- Uses the phi-3 model for natural language understanding and generation. 
 - Monitored by Langsmith for performance and reliability.
 - Provides a user-friendly interface powered by Streamlit.
 
