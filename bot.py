@@ -9,7 +9,7 @@ from langchain_community.embeddings import AlephAlphaAsymmetricSemanticEmbedding
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 from langsmith import traceable #for use langsmith to trace with working of code
-from langsmith.schemas import Run, Example
+from langsmith.schemas import Run, Example 
 from langsmith.evaluation import evaluate
 from langchain_groq import ChatGroq 
 
