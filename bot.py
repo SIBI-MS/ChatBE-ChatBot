@@ -1,5 +1,5 @@
 import os #To access the environment variables
-from dotenv import load_dotenv #To load the .env file   
+from dotenv import load_dotenv #To load the .env file    
 import streamlit as st #To create the web app user interface 
 from langchain_core.messages import AIMessage, HumanMessage #Used as schemas for arranging the messages
 from langchain_community.utilities import SQLDatabase #To interact with the database 
