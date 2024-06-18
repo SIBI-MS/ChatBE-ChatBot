@@ -4,7 +4,7 @@ import streamlit as st #To create the web app user interface
 from langchain_core.messages import AIMessage, HumanMessage #Used as schemas for arranging the messages
 from langchain_community.utilities import SQLDatabase #To interact with the database     
 from langchain_core.prompts import ChatPromptTemplate #Create the prompt for chatbot
-from langchain_community.llms import HuggingFaceHub #To create huggingface model instence
+from langchain_community.llms import HuggingFaceHub #To create  huggingface model instence
 from langchain_community.embeddings import AlephAlphaAsymmetricSemanticEmbedding #Embedding model
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
