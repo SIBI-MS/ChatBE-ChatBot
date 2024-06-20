@@ -17,7 +17,7 @@ from langchain_groq import ChatGroq
 
 
 
-load_dotenv() 
+load_dotenv() #its for loading the key from the .env file
 
 #Storing the api of huggingface and model name
 os.environ["HUGGINGFACE_API_KEY"]=os.getenv("HUGGINGFACE_API_KEY")
