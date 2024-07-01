@@ -178,3 +178,26 @@ if user_quary is not None and user_quary!='':
         st.markdown(response)
     st.session_state.chat_history.append(AIMessage(content=response ))
 
+import numpy as np
+
+# Generate some sample data
+np.random.seed(0)
+X = 2 * np.random.rand(100, 1)
+y = 4 + 3 * X + np.random.randn(100, 1)
+
+# Add x0 = 1 to each instance (for the intercept term)
+X_b = np.c_[np.ones((100, 1)), X]  # Add x0 = 1 to each instance
+
+# Initialize parameters
+theta = np.random.randn(2, 1)  # Random initialization
+learning_rate = 0.1
+n_iterations = 1000
+m = 100  # Number of instances
+
+# Gradient Descent
+for iteration in range(n_iterations):
+    gradients = 2/m * X_b.T.dot(X_b.dot(theta) - y)
+    theta = theta - learning_rate * gradients
+
+print("Estimated parameters:", theta)
+
