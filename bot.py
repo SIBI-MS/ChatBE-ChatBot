@@ -201,3 +201,31 @@ for iteration in range(n_iterations):
 
 print("Estimated parameters:", theta)
 
+import pandas as pd
+
+df=pd.read_csv('/home/aiswarya/Documents/student records.csv')
+
+print(df)
+
+feature_names=['OverallGrade', 'Obedient', 'ResearchScore', 'ProjectScore']
+
+training features=df [feature names] print(training features)
+
+outcome name=['Recommend']
+
+outcome_labels df [outcome name]
+
+print(outcome labels)
+
+numeric_feature_names=['ResearchScore', 'ProjectScore'] categorical feature names=['OverallGrade', 'Obedient']
+
+from sklearn.preprocessing import StandardScaler
+
+ss-StandardScaler()
+
+ss.fit(training_features [numeric_feature_names])
+
+training_features [numeric_feature_names]=ss.transform(training_features [numeric_feature names]) print (training features)
+
+training_features=pd.get_dummies (training_features,columns=categorical feature names) print(training features)
+
