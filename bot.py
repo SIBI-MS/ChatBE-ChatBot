@@ -6,7 +6,7 @@ from langchain_community.utilities import SQLDatabase #To interact with the data
 from langchain_core.prompts import ChatPromptTemplate #Create the prompt for chatbot
 from langchain_community.llms import HuggingFaceHub #To create  huggingface model instence
 from langchain_community.embeddings import AlephAlphaAsymmetricSemanticEmbedding #Embedding model
-from langchain_core.runnables import RunnablePassthrough
+from langchain_core.runnables import RunnablePassthrough 
 from langchain_core.output_parsers import StrOutputParser
 from langsmith import traceable #for use langsmith to trace with working of code
 from langsmith.schemas import Run, Example 
